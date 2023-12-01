@@ -336,9 +336,27 @@ footer {
     margin: 15px 0 0 10px;
   }
   
-  .post-image {
+  .post-image1 {
     min-height: 250px;
     background-image: url(/images/news1.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    
+  }
+
+  .post-image2 {
+    min-height: 250px;
+    background-image: url(/images/news2.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    
+  }
+
+  .post-image3 {
+    min-height: 250px;
+    background-image: url(/images/news3.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 15px;
