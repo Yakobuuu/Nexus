@@ -13,9 +13,50 @@ body {
 }
 .header {
     position: fixed;
+    z-index: 999;
+}
+.drop-down li {
+    list-style: none;
+    height: 100%;
+    padding: 0.5rem 2rem;
+    font-weight: 400;
+    cursor: pointer;
+    
+}
+.drop-down {
+    position: absolute;
+    padding: 0.5rem 0;
+    margin: 0.5rem -0.5rem;
+    background: white;
+    color: black;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
    
 }
-
+#submenu {
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+    
+}
+li:hover ul#submenu {
+    opacity: 1;
+    visibility: visible;
+    margin-left: 0.3rem;
+    
+}
+.coll a {
+    display: flex;
+}
+.dropdown-icon {
+    font-size: 20px;
+    position: relative;
+    right: -5px;
+}
 .logo {
     width: 50px;
     height: 60px;
