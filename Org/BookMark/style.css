@@ -8,6 +8,8 @@
 body {
     background: rgb(234, 234, 243);
     background: #f4f1f1;
+    background-image: url(/images/bulsu-main-gate.jpg);
+    background-size: cover;
 }
 .header {
     position: fixed;
@@ -161,16 +163,16 @@ box-shadow:  -5px 5px 10px #c7c5c5,
 .post-section {
    
     padding-top: 5.5rem;
-    padding-left: 23rem;
+    padding-left: 25rem;
     
-    width: 85vw;
+    width: 98vw;
 }
 .post-section-copy {
    
-    padding-top: 5.5rem;
-    padding-left: 23rem;
+    padding-top: 5rem;
+    padding-left: 25rem;
     
-    width: 85vw;
+    width: 98vw;
 }
 .last-post-section-copy {
    
@@ -178,11 +180,6 @@ box-shadow:  -5px 5px 10px #c7c5c5,
     padding-left: 25rem;
     padding-bottom: 3rem;
     width: 98vw;
-
-    padding-top: 5.5rem;
-    padding-left: 23rem;
-    
-    width: 85vw;
 }
 .all-post-p {
     font-weight: 600;

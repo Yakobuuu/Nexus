@@ -1,7 +1,7 @@
 
 body {
-  background: url(/images/BSU-picture.png) top center no-repeat;
-  background-size: cover;
+  background-image: url(/images/bulsu-main-gate.jpg);
+    background-size: cover;
   margin: 0;
 }
 .sign-Up-page {
@@ -24,7 +24,7 @@ body {
 }
 .form {
     position: relative;
-    top: -10%;
+    top: -5%;
     flex-direction: column;
     width: 300px;
     font-weight: 700;
@@ -76,10 +76,13 @@ body {
       outline: none;
       
     }
-    
+.email-text {
+  font-size: 15px;
+  font-weight: 300;
+}
   
   .inputForm {  
-    margin-top: 2rem;
+    margin-top: 1rem;
     border: 1px solid black;
     border-radius: 10px;
     height: 50px; 
@@ -110,3 +113,25 @@ body {
     background-color: #252727;
   }
   
+.contact-form {
+  width: 350px;
+
+}
+.contact-form label {
+  display: block;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 10px 0;
+}
+select {
+  width: 85%;
+  height: 50px;
+  padding: 12px 20px;
+  margin-top: 0px;
+  display: inline-block;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  font-size: 15px;
+  background: transparent;
+  
+}

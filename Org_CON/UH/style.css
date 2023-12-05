@@ -8,6 +8,8 @@
 body {
     background: rgb(234, 234, 243);
     background: #f4f1f1;
+    background-image: url(/images/bulsu-main-gate.jpg);
+    background-size: cover;
 }
 .header {
     position: fixed;
